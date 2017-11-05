@@ -1,0 +1,116 @@
+
+/*
+----------------------------------------------------------------------------------
+
+    Template Name: Abu Taher- Service section
+    Template URI: demo.ataher.com
+    Description: Abu Taher is a clean and professional web developer
+    Author: W3cops
+    Author URI: http://ataher.com/
+    Version: 1.0	
+
+-------------------------------------------------------
+*/
+
+/*
+-----------------------
+TABLE OF CONTENTS
+-----------------------
+1. Fonts
+2. Reset
+3. Global
+4. Services
+*/
+
+/*
+-----------------------
+Fonts
+-----------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+/* 
+
+/*
+-----------------------
+Reset
+-----------------------
+*/
+* {
+    margin:0px;
+    padding:0px;
+    border:none;
+    outline:none;
+}
+/* 
+
+/*
+-----------------------
+Global Settings
+-----------------------
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin: 0;
+}
+
+a,
+a:focus,
+a:hover,
+i,
+span {
+    display: inline-block
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+section {
+  padding: 60px 0;
+  border: 1px solid #ddd;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* 
+
+/*
+-----------------------
+CONTACT AREA CSS
+-----------------------
+*/
+.contact-section {}
+.contact-section .contact-form {}
+.contact-section .heading {}
+.contact-section .form-group {
+  margin-bottom: 20px;
+}
+.contact-section .form-control {
+  border-radius: 0;
+}
+.contact-section .form-control:focus {
+  border: 1px solid #333;
+  box-shadow: none;
+}
+.contact-section .btn {
+  border-radius: 0;
+  margin-top: 25px;
+}
+.contact-section .btn-default:hover {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
